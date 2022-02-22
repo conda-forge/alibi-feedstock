@@ -73,3 +73,6 @@ about:
 extra:
   recipe-maintainers:
     - sugatoray
+    # Maintainers from upstream repo
+    - jklaise
+    - ascillitoe
