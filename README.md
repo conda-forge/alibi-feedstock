@@ -5,7 +5,7 @@ Home: https://github.com/SeldonIO/alibi
 
 Package license: Apache-2.0
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/alibi-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/alibi-feedstock/blob/main/LICENSE.txt)
 
 Summary: Algorithms for monitoring and explaining machine learning models
 
@@ -34,8 +34,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15179&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alibi-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15179&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/alibi-feedstock?branchName=main">
       </a>
     </td>
   </tr>
