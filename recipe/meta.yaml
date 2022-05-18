@@ -1,5 +1,5 @@
 {% set name = "alibi" %}
-{% set version = "0.6.5" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/alibi-{{ version }}.tar.gz
-  sha256: 796a270fa7758001c4f9e6aee3ce48c3d56191611db2faf6ef1abeea7639f17b
+  sha256: 4b15f85e399d5274510a719fac62e6d1e57ebf9d635249b53bc011d1940f1f03
 
 build:
   number: 0
