@@ -1,11 +1,11 @@
-About alibi
-===========
+About alibi-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/alibi-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/SeldonIO/alibi
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/alibi-feedstock/blob/main/LICENSE.txt)
 
 Summary: Algorithms for monitoring and explaining machine learning models
 
