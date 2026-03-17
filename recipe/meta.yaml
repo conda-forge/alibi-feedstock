@@ -6,20 +6,20 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/alibi-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/alibi-{{ version }}.tar.gz
   sha256: 4b15f85e399d5274510a719fac62e6d1e57ebf9d635249b53bc011d1940f1f03
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python {{ python_min }}
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - attrs >=19.2.0,<22.0.0
     - dill >=0.3.0,<0.4.0
     - matplotlib-base >=3.0.0,<4.0.0
@@ -46,6 +46,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/SeldonIO/alibi
